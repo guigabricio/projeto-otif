@@ -1,0 +1,13 @@
+otif:
+  jwt:
+    secret: 7K,M>mbY7+&9JA6KNNr+FB?[qNW(caHAl^Nhip6Gbn*lnnw22Fn7Ge0xs.g+Nn+zjA:(p4?(J6TxL*P$,4l]|Drr{?eEdQ4$Q2x7^7+xBNEfj5[O<y3p4:zXU}jUW0@]Wg[QE#%F[-lbpdqm}K}yJs+emW08.c2J8ua#ZF)Q?Wsg0A)sK#ITW^z9QPiDsCNRyn>,t&Fk:6%PXCM5u@-+@]!02q(>B*9UqzNtNbwL|bbXdo}?Q$!}7mtb^dY<K:R2yfM@79,7BP^f4;U+2<%bjZ2f3[c$?tgn{tQyTEXWUR1?
+    expiration: 2592000
+  database: otif
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://api-otif:gYXHwKjw3T2zGjQ@cluster0.xncco.mongodb.net/otif?retryWrites=true&w=majority
